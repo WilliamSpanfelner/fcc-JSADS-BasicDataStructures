@@ -17,3 +17,12 @@ console.log(ourVariable);  // a
 using bracket notation */
 ourArray[2] = 10;
 console.log(ourArray);  // ['a', 'b', 10]
+
+/* In order to complete this challenge, set the 2nd position
+(index 1) of myArray to anything you want, besides the 
+letter b. */
+let myArray = ['a', 'b', 'c', 'd']
+// Only change code below this line
+
+// Only change code above this line
+console.log(myArray);
