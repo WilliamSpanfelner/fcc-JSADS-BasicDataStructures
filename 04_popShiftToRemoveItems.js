@@ -25,9 +25,9 @@ removed elements to their corresponding variables, so that
 the returned array contains their values. */
 
 function popShift(arr) {
-    let popped;  // Change this line
-    let shifted;  // change this line
-    return [shifted, popped];
+    let popped = arr.pop();  // Change this line
+    let shifted = arr.shift();  // change this line
+    return [shifted, popped];  // ['challenge', 'complete']
 }
 
 console.log(popShift(['challenge', 'is', 'not', 'complete']));
