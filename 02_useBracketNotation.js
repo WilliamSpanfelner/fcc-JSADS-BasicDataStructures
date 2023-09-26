@@ -12,3 +12,8 @@ on it */
 
 let ourVariable = ourArray[0];
 console.log(ourVariable);  // a
+
+/* The value of an array item can be updated 
+using bracket notation */
+ourArray[2] = 10;
+console.log(ourArray);  // ['a', 'b', 10]
