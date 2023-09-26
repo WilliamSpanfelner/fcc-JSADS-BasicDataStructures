@@ -11,3 +11,8 @@ console.log(greetings);  // ['Whats up?', 'hello']
 
 greetings.shift();
 console.log(greetings);  // ['hello']
+
+// Return the value of a removed element like this:
+
+let popped = greetings.pop();
+console.log(greetings);  // []
