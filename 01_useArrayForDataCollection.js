@@ -30,3 +30,10 @@ let complexArray = [
 ];
 
 console.log(complexArray.length);  // 2
+
+/*  We have defined a variable called yourArray.  Complete
+the statements by assigning an array of at least 5 elements
+in length to the yourArray variable.  Your array should
+contain at least one string, one number and one booean. */
+
+let yourArray;  // Change this line
