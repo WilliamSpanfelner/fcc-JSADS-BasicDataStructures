@@ -23,6 +23,6 @@ console.log(ourArray);  // ['a', 'b', 10]
 letter b. */
 let myArray = ['a', 'b', 'c', 'd']
 // Only change code below this line
-
+myArray[1] = 20;
 // Only change code above this line
-console.log(myArray);
+console.log(myArray);  // ['a', 20, 'c', 'd']
