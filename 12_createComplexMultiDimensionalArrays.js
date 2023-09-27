@@ -36,10 +36,24 @@ and on the fifth level, include the string deepest. */
 let myNestedArray = [
     // Only change code below this line
     ['unshift', false, 1, 2, 3, 'complex', 'nested'],
-    ['loop', 'shift', 6, 7, 1000, 'method'],
-    ['concat', false, true, 'spread', 'array'],
-    ['mutate', 1327.98, 'splice', 'slice', 'push'],
-    ['iterate', 1.3849, 7, '8.4876', 'arbitrary', 'depth']
+    [
+        ['deep', 'loop', 'shift', 6, 7, 1000, 'method'],
+        ['concat', false, true, 'spread', 'array'],
+    ],
+    [
+        [
+            ['deeper', 'mutate', 1327.98, 'splice', 'slice', 'push'],
+        ]
+    ],
+    [
+        [
+            [
+                ['deepest', 'iterate', 1.3849, 7, '8.4876', 'arbitrary', 'depth']
+            ]
+        ]
+    ]
     // Only change code above this line
 ];
+
+console.log(myNestedArray[3][0][0][0][0]);  // deepest
 
