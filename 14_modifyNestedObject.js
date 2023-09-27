@@ -13,3 +13,7 @@ let nestedObject = {
         }
     }
 };
+
+// Assign the value 10 to the busy key.
+nestedObject.data.onlineStatus.busy = 10;
+console.log(nestedObject);
