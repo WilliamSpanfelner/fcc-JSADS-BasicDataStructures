@@ -40,7 +40,10 @@ let users = {
 
 function isEveryoneHere(userObj) {
     // Only change code below this line
-
+    if ('Alan' in userObj && 'Jeff' in userObj && 'Sarah' in userObj && 'Ryan' in userObj) {
+        return true
+    }
+    return false
     // Only change code above this line
 }
 
