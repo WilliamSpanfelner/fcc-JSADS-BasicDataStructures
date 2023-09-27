@@ -27,7 +27,11 @@ nested within arr containing elem has been removed. */
 function filteredArray(arr, elem) {
     let newArr = [];
     // Only change code below this line
-
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i].indexOf(elem) == -1) {
+            newArr.push(arr[i]);
+        }
+    }
     // Only change code above this line
     return newArr;
 }
