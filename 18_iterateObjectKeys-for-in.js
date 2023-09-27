@@ -32,7 +32,13 @@ const users = {
 
 function countOnline(allUsers) {
     // Only change code below this line
-
+    let onlineCount = 0;
+    for (const user in allUsers) {
+        if (allUsers[user].online) {
+            onlineCount++;
+        }
+    }
+    return onlineCount
     // Only change code above this line
 }
 
