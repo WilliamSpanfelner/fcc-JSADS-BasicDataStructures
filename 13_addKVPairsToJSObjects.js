@@ -18,3 +18,18 @@ console.log(tekkenCharacter);
     origin: 'South Korea'
 } 
 */
+
+/* Let's add another key-value pair from the value of a 
+variable (this requires bracket notation): */
+const hairColor = 'dyed orange';
+tekkenCharacter['hair color'] = hairColor;
+console.log(tekkenCharacter);
+/*
+{
+    player: 'Hwoarang', 
+    fightingStyle: 'Tae Kwon Doe', 
+    human: true, 
+    origin: 'South Korea', 
+    hair color: 'dyed orange'
+}
+*/
